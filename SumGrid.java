@@ -1,7 +1,7 @@
-// SumGrid.java
+// Third One
 public class SumGrid {
 
-    // Method to sum all elements in a 2D grid (array)
+    // Method to sum all elements in a 2D grid (array):
     public static double sumGrid(double[][] grid) {
         double total = 0;
         for (double[] row : grid) {
@@ -12,9 +12,9 @@ public class SumGrid {
         return total;
     }
 
-    // Main method to test the function
+    // Main method to test the function:
     public static void main(String[] args) {
         double[][] grid = {{1.1, 2.2}, {3.3, 4.4}};
-        System.out.println("Sum of grid: " + sumGrid(grid)); // Output: 11.0
+        System.out.println("Sum of grid: " + sumGrid(grid)); // Output is 11.0
     }
 }
