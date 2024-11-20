@@ -1,7 +1,7 @@
-// CountOccurrences.java
+// First Question
 public class CountOccurrences {
 
-    // Method to count occurrences of an integer in an array
+    // Method to count occurrences of an integer in an array:
     public static int countOccurrences(int[] arr, int n) {
         int count = 0;
         for (int i : arr) {
@@ -12,10 +12,10 @@ public class CountOccurrences {
         return count;
     }
 
-    // Main method to test the function
+    // Main method to test the function:
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 2, 4, 2, 5};
-        System.out.println("Count of 2: " + countOccurrences(arr, 2)); // Output: 3
+        System.out.println("Count of 2: " + countOccurrences(arr, 2)); // Output is thrree 3
     }
 }
 
