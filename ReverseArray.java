@@ -1,4 +1,4 @@
-// ReverseArray.java
+// Second One- pretty confusing
 public class ReverseArray {
 
     // Method to reverse an array and return a new array
@@ -19,6 +19,6 @@ public class ReverseArray {
         for (int num : reversed) {
             System.out.print(num + " ");
         }
-        System.out.println();  // Output: 5 4 3 2 1
+        System.out.println();  // Output is 5, 4, 3, 2, 1
     }
 }
